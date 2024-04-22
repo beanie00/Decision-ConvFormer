@@ -6,7 +6,7 @@ done
 
 for seed in 123 231 312
 do
-    python run_dt_atari.py --seed $seed --context_length 8 --game 'Qbert' --batch_size 128 --token_mixer 'conv'
+    python run_dt_atari.py --seed $seed --context_length 8 --game 'Qbert' --batch_size 128 --token_mixer 'conv' --conv_proj
 done
 
 for seed in 123 231 312
@@ -16,7 +16,7 @@ done
 
 for seed in 123 231 312
 do
-    python run_dt_atari.py --seed $seed --context_length 8 --game 'Seaquest' --batch_size 128 --token_mixer 'conv'
+    python run_dt_atari.py --seed $seed --context_length 8 --game 'Seaquest' --batch_size 128 --token_mixer 'conv' --conv_proj
 done
 
 for seed in 123 231 312
@@ -26,12 +26,12 @@ done
 
 for seed in 123 231 312
 do
-    python run_dt_atari.py --seed $seed --context_length 8 --game 'Frostbite' --batch_size 128 --token_mixer 'conv'
+    python run_dt_atari.py --seed $seed --context_length 8 --game 'Frostbite' --batch_size 128 --token_mixer 'conv' --conv_proj
 done
 
 for seed in 123 231 312
 do
-    python run_dt_atari.py --seed $seed --context_length 8 --game 'Assault' --batch_size 128 --token_mixer 'conv'
+    python run_dt_atari.py --seed $seed --context_length 8 --game 'Assault' --batch_size 128 --token_mixer 'conv' --conv_proj
 done
 
 for seed in 123 231 312
